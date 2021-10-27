@@ -1,0 +1,11 @@
+.alignment-side-menu {
+    display: flex;
+    align-items: center;
+    padding-left: 52px;
+}
+
+.alignment-icon-menu {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}

@@ -56,3 +56,11 @@
 .mr-lg {
     margin-right: 30px;
 }
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.gap-sm {
+    gap: 16px;
+}

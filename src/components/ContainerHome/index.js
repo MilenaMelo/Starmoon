@@ -1,14 +1,10 @@
 import './styles.css'
            
-function ContainerHome({ label }) {
+function ContainerHome({ label, cor }) {
     return(
-        <div className='container-home'>
-            <div className='header'>
-                <h5>{label}</h5>
-            </div>
-            <div className='body'>
-
-            </div>
+        <div style={{borderColor: cor, color: cor}} className='flex-row container-value content-around'>
+            <h4>{label}</h4>
+            <h4 className='number-zero '>0</h4>
         </div>
     );
 }

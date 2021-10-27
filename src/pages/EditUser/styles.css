@@ -1,0 +1,25 @@
+.modal-form {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-family: 'Montserrat';
+    background: rgba(0,0,0,0.8);
+    z-index: 99999999;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    padding: 200px;
+    min-width: 460px;
+    overflow: auto;
+}
+
+a {
+    color: #374952;
+    font-size: 16px;
+}
+
+.margin-top-modal {
+    margin-block-start: 500px;
+}

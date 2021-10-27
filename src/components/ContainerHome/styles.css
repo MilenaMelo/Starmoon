@@ -1,10 +1,17 @@
-.container-home {
-    width: 100vw;
+.container-value {
+    background: #FFFFFF;
+    border: 2px solid; 
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 255px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    align-items: center;
+    height: 80px;
 }
 
-.header {
-    width: 410px;
-    height: 80px;
-    background: #374952;
-    border-radius: 16px 16px 0px 0px;
+.number-zero {
+    font-size: 36px;
 }

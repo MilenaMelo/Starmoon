@@ -15,3 +15,20 @@
 .items-center {
     align-items: center;
 }  
+
+.grid-gap-mid {
+    column-gap: 40px;
+}
+
+.align-self-end {
+    align-self: end;
+}
+
+.content-around {
+    justify-content: space-between;
+    padding: 0px 16px;
+}
+
+.text-center {
+    text-align: center;
+}

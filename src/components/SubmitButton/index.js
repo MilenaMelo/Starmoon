@@ -1,9 +1,14 @@
 import './styles.css'
-           
-function SubmitButton({ label }) {
-    return(
+
+function SubmitButton({ label, color }) {
+    return (
         <div>
-            <button className='btn-disabled-primary mt-lg'>{label}</button>
+            <button
+                className='btn-disabled-primary mt-lg width-mid'
+                style={{backgroundColor: color}}
+                >
+                {label}
+            </button>
         </div>
     );
 }
